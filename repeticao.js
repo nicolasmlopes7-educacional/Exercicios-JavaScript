@@ -22,7 +22,7 @@ btnEnviar.addEventListener("click", function () {
 let soma = 0;
 let numero = 2
 
-for (let i = 1; i <= 2; i++) {
+for (let i = 1; i <= numero; i++) {
     soma = soma + i;
 }
 console.log(soma);
